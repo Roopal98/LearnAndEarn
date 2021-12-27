@@ -1,0 +1,62 @@
+.homePageWrapper {
+  background-image: url('https://play.fresco.me/ffc3ce064f67dbf64b9d9ca788286d76.png');
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 5px);
+  position: relative;
+  width: 100%;
+}
+
+.mainCardWrapper {
+  background-color: rgba(243, 43, 136, 0.2);
+  display: flex;
+  /* flex-direction: column; */
+  min-height: 350px;
+  padding: 30px 5%;
+}
+
+.banner-wrapper {
+  align-items: stretch;
+  display: flex;
+  margin: 30px auto 0px;
+  /* max-width: 1280px; */
+  width: 100%;
+}
+
+.section-wrapper {
+  padding: 30px 5% 5px;
+  /* width: 100%; */
+}
+
+.section-wrapper h4 {
+  font-size: 20px;
+  font-weight: 450;
+  letter-spacing: 1.5px;
+  color: rgb(243, 43, 136);
+  display: inline-block;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 10px 0px 30px;
+}
+@media (max-width: 1200px) {
+  .banner-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+  .scoreCard {
+    /* width: 40%; */
+  }
+}
+
+.mainContent {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  display: flex;
+  margin: 30px auto 0px;
+  max-width: 1280px;
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.section-wrapper {
+  padding: 60px 5% 5px;
+}
+
+.section-wrapper h4 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: rgb(243, 43, 136);
+  display: inline-block;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 10px 0px 30px;
+}

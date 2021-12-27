@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 50px auto 0px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  min-width: 150px;
+  margin: 30px auto;
+}
+
+.wrapper img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.wrapper div {
+  font-size: 16px;
+  color: rgb(74, 74, 74);
+}
+
+.txtContainer {
+  margin: 30px auto;
+}
+
+.wrapper p {
+  margin: 2px 0px 10px;
+}
+
+.txtContainer a {
+  color: rgb(51, 122, 183);
+  text-decoration: none;
+}

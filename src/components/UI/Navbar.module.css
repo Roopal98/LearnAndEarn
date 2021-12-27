@@ -1,0 +1,120 @@
+.nav {
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 90px;
+  background-color: rgb(59, 65, 78);
+  position: fixed;
+  text-align: center;
+  z-index: 444;
+  /* transition: transform 0.4s ease 0s; */
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav li {
+  margin-bottom: 30px;
+}
+
+.nav a {
+  display: block;
+  margin-top: 0px;
+  line-height: 15px;
+  padding: 0px 10px;
+  color: rgb(153, 153, 153);
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  min-height: 30px;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: white;
+  cursor: pointer;
+}
+
+.tooltip {
+  display: inline-block;
+  position: absolute;
+  background-color: #313443;
+  padding: 8px 15px;
+  border-radius: 3px;
+  margin-top: -32px;
+  left: 90px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  z-index: 445;
+}
+
+.nav a:hover .tooltip {
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  z-index: 2000;
+}
+.logout a:hover .caret,
+.nav li a:hover .caret {
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgb(255, 255, 255);
+  display: inline-block;
+  right: 0px;
+  top: 30%;
+  position: absolute;
+}
+
+.logo {
+  margin: 30px auto 40px;
+  color: white;
+}
+
+.logoActive {
+  background-color: rgb(250, 104, 153);
+  margin: 20px;
+  border-radius: 6px;
+  color: white;
+}
+
+.userProfile {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 13px 0px;
+  background-color: rgb(48, 52, 63);
+}
+
+.profileIcon {
+  width: 54px;
+  height: 35px;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userProfile span {
+  color: rgb(243, 43, 136);
+  font-size: 20px;
+}
+
+.logout {
+  bottom: 81px;
+  position: absolute;
+  width: 100%;
+  padding: 13px 0px;
+  background-color: rgb(48, 52, 63);
+}

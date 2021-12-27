@@ -1,0 +1,20 @@
+.card {
+  overflow: hidden;
+  padding: 60px;
+  display: flex;
+  /* margin-right: 91px; */
+  /* height: 400px; */
+  height: 255px;
+  background-image: url(https://play.fresco.me/dea45daa2f094866a24ce056767c47b1.svg);
+  background-repeat: no-repeat;
+  /* border-radius: 10px !important; */
+  border: none !important;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    margin: 30px auto auto;
+    max-width: 380px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+.intro {
+  /* align-items:center; */
+  display: flex;
+  /* margin: auto;
+  max-width: 1280px; */
+  width: 100%;
+}
+
+.intro h3 {
+  color: rgb(59, 65, 78);
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 20px 0px 0px;
+  width: 40%;
+}
+
+.intro span {
+  font-weight: bold;
+}
+
+.banner-search {
+  flex: 1 1 0%;
+  z-index: 16;
+  color: grey;
+  transition: all 0.3s ease-out 0s;
+}
+
+.searchBarContainer {
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: transparent;
+}
+
+.searchBar {
+  height: 100%;
+  width: calc(100% - 80px);
+}
+
+searchIcon {
+  background: url('https://play.fresco.me/4dfd9b67830ef5ab1a9cbda52c613f4b.svg')
+    center center / 40px no-repeat rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  float: right;
+  cursor: pointer;
+  color: white;
+}

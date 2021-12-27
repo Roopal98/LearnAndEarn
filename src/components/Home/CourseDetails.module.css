@@ -1,0 +1,37 @@
+.banner {
+  background: linear-gradient(
+    135deg,
+    rgb(80, 113, 221) 30%,
+    rgb(143, 49, 169) 100%
+  );
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  padding: 50px 9%;
+}
+
+.section-wrapper {
+  padding: 60px 8% 5px;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px auto;
+  width: 100%;
+  padding: 30px 5%;
+  -webkit-box-align: initial;
+  align-items: initial;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 750px;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.spinner {
+  margin-top: 3em !important;
+  text-align: center;
+}

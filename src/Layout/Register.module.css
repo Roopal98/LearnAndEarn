@@ -1,0 +1,41 @@
+.headmain {
+  margin-bottom: 50px;
+}
+
+.heading {
+  height: 80px;
+  box-shadow: 4px 8px 8px 4px #e0f0f5;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.headingName {
+  width: 300px;
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  height: 100px;
+  color: #2a91ad;
+  letter-spacing: 0.125rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.backimg {
+  background-position: 0% 30% !important;
+  height: 515px;
+  /* width: 100%;  */
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  /* background-position: left; */
+  background-image: url('../images/signup.png');
+  float: left !important;
+  margin-top: -3rem;
+  margin-right: -15px !important;
+  background-size: 50% !important;
+}

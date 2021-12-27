@@ -1,0 +1,317 @@
+.card {
+  background: #fff;
+  /* width: 24em; */
+  border-radius: 0.6em;
+  margin-bottom: 0.5em;
+  /* margin-right: 0.rem; */
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+  opacity: 1;
+  margin-top: 0px;
+  position: relative;
+  padding: 15px;
+  width: 340px;
+  height: 170px;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background: url('../../images/baseImage1.png') 0% 0% / cover no-repeat
+    rgb(255, 255, 255);
+}
+
+.progress-card {
+  background: #fff;
+  /* width: 24em; */
+  border-radius: 0.6em;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+  opacity: 1;
+  margin-top: 0px;
+  position: relative;
+  padding: 15px;
+  width: 330px;
+  height: 170px;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+      135deg,
+      rgb(117, 79, 182) 30%,
+      rgb(98, 125, 227) 100%
+    )
+    0% 0% / cover;
+  /* margin: 1.4em; */
+}
+
+.progress-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.progress-card p {
+  color: white;
+  margin-bottom: 5px;
+}
+.footerNudge {
+  padding: 6px 20px;
+  position: relative;
+  background: rgba(51, 51, 51, 0.5);
+  border-radius: 0px 0px 8px 8px;
+  color: white;
+}
+
+.cardBody {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+  align-items: initial;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  color: #222;
+  margin-top: -0.2em;
+  line-height: 1.4;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  transition: all ease-in 100ms;
+}
+
+.card p {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.card h5 {
+  color: #bbb;
+  font-weight: 700;
+  font-size: 0.7em;
+  letter-spacing: 0.04em;
+  margin: 1.4em 0 0 0;
+  text-transform: uppercase;
+}
+
+.card-body {
+  padding: 1.2em;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  color: white;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
+
+.entityType {
+  margin: 0px 0px 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 17px;
+  margin: 0px 0px 5px;
+  font-weight: bold;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.internaltags {
+  margin: 5px 10px 5px 0px;
+  padding: 5px 10px;
+  background-color: rgb(255, 245, 151);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+
+.icons {
+  margin-right: 11px;
+  font-size: 25px;
+  color: aquamarine;
+}
+@media (min-width: 850px) {
+  .card {
+    width: 210px;
+  }
+  .progress-card{
+    width: 210px;
+  }
+}
+@media (min-width: 860px) {
+  .card {
+    width: 215px;
+  }
+  .progress-card{
+    width: 215px;
+  }
+}
+@media (min-width: 887px) {
+  .card {
+    width: 223px;
+  }
+  .progress-card{
+    width: 223px;
+  }
+}
+@media (min-width: 920px) {
+  .card {
+    width: 233px;
+  }
+  .progress-card{
+    width: 233px;
+  }
+}
+@media (min-width: 955px) {
+  .card {
+    width: 243px;
+  }
+  .progress-card{
+    width: 243px;
+  }
+}
+@media (min-width: 1000px) {
+  .card {
+    width: 253px;
+  }
+  .progress-card{
+    width: 253px;
+  }
+}
+@media (min-width: 1030px) {
+  .card {
+    width: 263px;
+  }
+  .progress-card{
+    width: 263px;
+  }
+}
+@media (min-width: 1060px) {
+  .card {
+    width: 273px;
+  }
+  .progress-card{
+    width: 273px;
+  }
+}
+@media (min-width: 1090px) {
+  .card {
+    width: 283px;
+  }
+  .progress-card{
+    width: 283px;
+  }
+}
+@media (min-width: 1127px) {
+  .card {
+    width: 295px;
+  }
+  .progress-card{
+    width: 295px;
+  }
+}
+@media (min-width: 1178px) {
+  .card {
+    width: 310px;
+  }
+  .progress-card{
+    width: 310px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .card {
+    width: 344px;
+  }
+  .progress-card{
+    width: 344px;
+  }
+}
+/* @media (min-width: 1320px) {
+  .card {
+    width: 354px;
+  }
+  .progress-card{
+    width: 354px;
+  }
+}
+
+@media (min-width: 1340px) {
+  .card {
+    width: 364px;
+  }
+  .progress-card{
+    width: 364px;
+  }
+}
+@media (min-width: 1360px) {
+  .card {
+    width: 374px;
+  }
+  .progress-card{
+    width: 374px;
+  }
+}
+@media (min-width: 1380px) {
+  .card {
+    width: 384px;
+  }
+  .progress-card{
+    width: 384px;
+  }
+}
+@media (min-width: 1400px) {
+  .card {
+    width: 394px;
+  }
+  .progress-card{
+    width: 394px;
+  }
+} */
+
+

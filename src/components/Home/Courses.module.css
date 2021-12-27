@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-box-align: initial;
+  align-items: initial;
+  /* margin: 0px auto; */
+  max-width: 1080px;
+  padding: 0px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  /* text-align: -webkit-center; */
+}
+
+.card-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+  -webkit-box-align: initial;
+  align-items: initial;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.spinner {
+  margin: 0px auto;
+  justify-content: center;
+}
